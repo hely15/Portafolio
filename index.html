@@ -1,11 +1,273 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hely Santiago Diaz - UI Designer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
 </head>
 <body>
-    
+    <div class="container">
+        <!-- Navegación -->
+        <nav>
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#services">Servicios</a>
+                <a href="#about">Sobre Mi</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contactame</a>
+            </div>
+            <a href="https://wa.me/573187471767" class="hire-btn">Contactame</a>
+        </nav>
+
+        <!-- Sección Home -->
+        <section id="home" class="home-section">
+            <div class="home-content">
+                <div class="home-text">
+                    <p class="greeting">Hi I am</p>
+                    <h1 class="name">Hely Santiago Diaz</h1>
+                    <h2 class="profession">UI Designer</h2>
+                    
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/hely____o/"><i class="fab fa-instagram"></i></a>
+                        <a href="http://www.linkedin.com/in/hely-santiago-diaz"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-dribbble"></i></a>
+                        <a href="#"><i class="fab fa-at"></i></a>
+                    </div>
+                    
+                    <div class="cta-buttons">
+                        <a href="https://wa.me/573187471767" class="hire-btn">Contactame</a>
+                        <button class="cv-btn">My CV</button>
+                    </div>
+                </div>
+                <div class="profile-image">
+                    <div class="image-container"></div>
+                </div>
+            </div>
+            
+            <div class="stats-container">
+                <div class="stat">
+                    <h3 class="stat-number">1</h3>
+                    <p class="stat-text">Experiencia</p>
+                </div>
+                <div class="divider"></div>
+                <div class="stat">
+                    <h3 class="stat-number">10+</h3>
+                    <p class="stat-text">Proyectos</p>
+                </div>
+                <div class="divider"></div>
+                <div class="stat">
+                    <h3 class="stat-number">2+</h3>
+                    <p class="stat-text">Clientes Felices</p>
+                </div>
+            </div>
+        </section>
+ 
+        <!-- Sección Servicios -->
+        <section id="services" class="services-section">
+            <h2 class="section-title">Mis Servicios</h2>
+            <p class="section-subtitle">.</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3 class="service-title">Landing Pages</h3>
+                    <p class="service-description">Diseño y desarrollo de Landing Pages rápidas, modernas y optimizadas para conversiones.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3 class="service-title">Diseño desde Figma</h3>
+                    <p class="service-description">Maquetación precisa en HTML y Bootstrap a partir de tus diseños de Figma.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3 class="service-title">Integración de APIs</h3>
+                    <p class="service-description">Consumo e integración de APIs para mostrar datos dinámicos y en tiempo real.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3 class="service-title">Diseño en Figma</h3>
+                    <p class="service-description">Creación de prototipos, bosquejos y diseño completo de la página desde Figma, listos para desarrollo web.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3 class="service-title">Efectos Visuales</h3>
+                    <p class="service-description">Animaciones con CSS y Bootstrap, JavaScript para dar vida a tu sitio web.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3 class="service-title">Mantenimiento Web</h3>
+                    <p class="service-description">Actualización, corrección y mejoras de sitios web existentes.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección About Me -->
+        <section id="about" class="about-section">
+            <h2 class="section-title">Sobre Mi</h2>
+            <p class="section-subtitle">Desarrollador de Experiencia de Usuario</p>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-container"></div>
+                </div>
+                <div class="about-text">
+                    <p>Soy un desarrollador de software con especialización en el área de frontend, y sólidos conocimientos en HTML, CSS y JavaScript. Cuento con experiencia en el desarrollo de sistemas de rastreo de vuelos y aeropuertos, landing pages y tiendas en línea.
+                        Fuera del ámbito profesional, disfruto de actividades como la pesca, los viajes y el descubrimiento de nuevas ciudades. <p> Mi objetivo es ampliar mis conocimientos en programación, especializarme como desarrollador fullstack y, a futuro, fundar mi propia empresa de desarrollo de software.</p>                    
+                    <button class="cv-btn"><i class="fas fa-download"></i> Download CV</button>
+                </div>
+            </div>
+            
+            <div class="skills-container">
+                <div class="skill">
+                    <div class="skill-circle">
+                        <div class="skill-icon"><i class="fab fa-figma"></i></div>
+                    </div>
+                    <p class="skill-name">Figma</p>
+                </div>
+                
+                <div class="skill">
+                    <div class="skill-circle">
+                        <div class="skill-icon"><i class="fab fa-adobe"></i></div>
+                    </div>
+                    <p class="skill-name">HTML</p>
+                </div>
+                
+                <div class="skill">
+                    <div class="skill-circle">
+                        <div class="skill-icon"><i class="fab fa-adobe"></i></div>
+                    </div>
+                    <p class="skill-name">CSS</p>
+                </div>
+                
+                <div class="skill">
+                    <div class="skill-circle">
+                        <div class="skill-icon"><i class="fab fa-adobe"></i></div>
+                    </div>
+                    <p class="skill-name">JavaScript</p>
+                </div>
+                
+                <div class="skill">
+                    <div class="skill-circle">
+                        <div class="skill-icon"><i class="fab fa-adobe"></i></div>
+                    </div>
+                    <p class="skill-name">postman</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Portfolio (Placeholder) -->
+        <section id="portfolio" class="portfolio-section">
+            <h2 class="section-title">Portfolio</h2>
+            <p class="section-subtitle">My recent works</p>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <a href="https://hely15.github.io/Air-Operation/"><img src="storage/img/Flight1.png" alt="" style="width: -webkit-fill-available;" ></a>
+                    <div style="display: flex;justify-content: space-around;">
+                        <p>Air Operation</p>
+                        <P>Status Completed</P>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <a href="https://hely15.github.io/weather-app-redesign/"><img src="storage/img/Clima1.png" alt="" style="width: -webkit-fill-available;"></a>
+                    <div style="display: flex;justify-content: space-around;">
+                        <p>Air Operation</p>
+                        <P>Status In Progress</P>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <a href="https://hely15.github.io/Landing-pages/"><img src="storage/img/LandingPage1.png" alt="" style="width: -webkit-fill-available;"></a>
+                    <div style="display: flex;justify-content: space-around;">
+                        <p>Air Operation</p>
+                        <P>Status Completed</P>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <a href="https://hely15.github.io/Prototipo-interactivo-de-pa-gina-web-para-personas-con-dificultades-visuales/"><img src="storage/img/Crae1.png" alt="" style="width: -webkit-fill-available;"></a>
+                    <div style="display: flex;justify-content: space-around;">
+                        <p>Air Operation</p>
+                        <P>Status Completed</P>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <a href="https://hely15.github.io/Conciertos-Conectados/"><img src="storage/img/Events1.png" alt="" style="width: -webkit-fill-available;"></a>
+                    <div style="display: flex;justify-content: space-around;">
+                        <p>Air Operation</p>
+                        <P>Status Completed</P>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <a href="https://hely15.github.io/ice-cream/"> <img src="storage/img/IceCream1.png" alt="" style="width: -webkit-fill-available;"></a>
+                    <div style="display: flex;justify-content: space-around;">
+                        <p>Air Operation</p>
+                        <P>Status Completed</P>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección Contact (Placeholder) -->
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="section-subtitle">Get in touch</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>helydiaz65@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+57 3187471767</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Bucaramanga, Santander</p>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2025 Hely Santiago Diaz. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
