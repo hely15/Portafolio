@@ -230,6 +230,13 @@ nav {
     overflow: hidden;
 }
 
+.image-container img {
+    width: 100%;
+    height: 132%;
+    object-fit: contain;
+}
+
+
 .stats-container {
     display: flex;
     justify-content: center;
